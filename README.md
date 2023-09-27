@@ -17,3 +17,16 @@ ggplot(data=penguins)+geom_point(mapping=aes(x=bill_length_mm, y=bill_depth_mm))
 #(To learn more about any R function, just run the code question mark function_name. For example, if you want to learn more about the geom_point function, type in question mark geom_point.)#
 
 
+#--------------------------------------------------------------------#
+
+#Manually create a data frame #
+id <- c(1:10)
+
+
+name <- c("John Mendes", "Rob Stewart", "Rachel Abrahamson", "Christy Hickman", "Johnson Harper", "Candace Miller", "Carlson Landy", "Pansy Jordan", "Darius Berry", "Claudia Garcia")
+
+
+job_title <- c("Professional", "Programmer", "Management", "Clerical", "Developer", "Programmer", "Management", "Clerical", "Developer", "Programmer")
+
+
+employee <- data.frame(id, name, job_title)
